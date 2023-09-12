@@ -1,0 +1,138 @@
+
+
+.products{
+float: left;
+color: black;
+text-decoration:none ;
+width: 22rem;
+margin-left: 4.5rem;
+margin-top: 3rem;
+
+}
+
+.product_name{
+  
+text-align: center;
+
+}
+.price{
+
+
+
+}
+
+.product_footer{
+
+margin-top: 1rem;
+
+
+}
+.footer{
+
+
+margin-top: 55rem;
+
+}
+
+.fotter_logos{
+width: 3rem;
+padding-left: 1rem;
+
+}
+
+.Middle{
+
+background-color: #0b022d;
+position: absolute;
+margin-top: 1rem;
+margin-left: 0.5rem;
+
+
+
+
+}
+
+.logo_img{
+
+   
+    width: 45rem;
+ 
+}
+
+.middle_img{
+width: 35rem;
+height: 20rem;
+margin-right: 3rem;
+
+
+
+}
+.search_bar{
+
+position: absolute;
+width: 30rem;
+padding-top: 25rem;
+padding-left:10rem;
+margin-left: 6rem;
+
+}
+.sports{
+width: 10rem;
+
+margin-left: 6rem;
+text-align: center;
+color: aliceblue;
+margin-bottom: 2rem;
+
+float: left;
+
+}
+.sports:hover{
+    transform:scale(1.1);
+    border-style: ridge;
+    border-color: #ef7ddc;
+    
+  
+}
+
+
+
+.element    
+{
+
+    padding-left:2rem;
+}
+
+
+
+
+
+
+
+
+.Navbarelements{
+
+    padding-left: 45rem;
+}
+
+
+
+
+
+
+.product_footer{
+
+ position: absolute;
+ 
+ margin-top: 75rem;
+ padding-left: 32rem;
+padding-right: 40rem;
+}
+    
+
+
+.cardimg{
+
+    width: 21.9rem;
+    height: 21.9rem;
+}

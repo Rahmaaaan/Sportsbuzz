@@ -1,116 +1,62 @@
+var checking = {};
 
-
-
-var checking = {  }
-
-$("#badmintion").click(function (e) { 
-   e.preventDefault();
-console.log("yo dude this should work i huees ");
-   checking={ }
-   checking={
-
-      name:"badmintion"
-   }
-   yo();
-   
+$("#badmintion").click(function (e) {
+  e.preventDefault();
+  console.log("yo dude this should work i huees ");
+  checking = {};
+  checking = {
+    name: "badmintion",
+  };
+  yo();
 });
 
-$("#cricket").click(function (e) { 
-   e.preventDefault();
- console.log("is this working ?");
-   checking={ }
-   checking={
-
-      name:"cricket"
-   }
-   yo();
+$("#cricket").click(function (e) {
+  e.preventDefault();
+  console.log("is this working ?");
+  checking = {};
+  checking = {
+    name: "cricket",
+  };
+  yo();
 });
 
-$("#basketball").click(function (e) { 
-   e.preventDefault();
+$("#basketball").click(function (e) {
+  e.preventDefault();
 
-   checking={ }
-   checking={
-
-      name:"basketball"
-   }
-   yo();
+  checking = {};
+  checking = {
+    name: "basketball",
+  };
+  yo();
 });
 
-$("#volleyball").click(function (e) { 
-   e.preventDefault();
+$("#volleyball").click(function (e) {
+  e.preventDefault();
 
-   checking={ }
-   checking={
-
-      name:"soccer"
-   }
-   yo();
+  checking = {};
+  checking = {
+    name: "soccer",
+  };
+  yo();
 });
-$("#hockey").click(function (e) { 
-   e.preventDefault();
+$("#hockey").click(function (e) {
+  e.preventDefault();
 
-   checking={ }
-   checking={
-
-      name:"hockey"
-   }
-   yo();
+  checking = {};
+  checking = {
+    name: "hockey",
+  };
+  yo();
 });
 
+function yo() {
+  fetch("/home", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify(checking),
+  });
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-function yo (){
-  
-   fetch("/home",{
-method : "POST",
-headers : {
-'Content-Type':'application/json'
-},
-body: JSON.stringify(checking)
-})
-
-
-window.open("http://localhost:3000/products","_self");
-
-
+  window.open("http://localhost:3000/products", "_self");
 }
-
-
-
-
-
-
-
-
-

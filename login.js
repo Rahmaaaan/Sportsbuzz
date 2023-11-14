@@ -1,82 +1,46 @@
 $("#userName").focus();
-$('#Login').prop('disabled', true);
+$("#Login").prop("disabled", true);
 
 // name verication
-$("#userName").keypress(function(){
-   
-    if($("#userPass").val()!="" && $("#userName").val()!="" && $("#floatingInput").val() !="")
-
-    {
-    
-        $('#Login').prop('disabled', false);
-    
-    }
-    if($("#userName").val()=="")
-    {
-        $('#Login').prop('disabled', true);
-    }
-   
-
-
-
-
+$("#userName").keypress(function () {
+  if (
+    $("#userPass").val() != "" &&
+    $("#userName").val() != "" &&
+    $("#floatingInput").val() != ""
+  ) {
+    $("#Login").prop("disabled", false);
+  }
+  if ($("#userName").val() == "") {
+    $("#Login").prop("disabled", true);
+  }
 });
-
-
-
-
-
-
-
-
 
 // email verification
-$("#floatingInput").keypress(function(){
-   
-    if($("#userPass").val()!="" && $("#userName").val()!="" && $("#floatingInput").val() !="")
+$("#floatingInput").keypress(function () {
+  if (
+    $("#userPass").val() != "" &&
+    $("#userName").val() != "" &&
+    $("#floatingInput").val() != ""
+  ) {
+    $("#Login").prop("disabled", false);
+  }
 
-    {
-    
-        $('#Login').prop('disabled', false);
-    
-    }
-
-    if($("#floatingInput").val()=="")
-    {
-        $('#Login').prop('disabled', true);
-    }
-   
-  
-
+  if ($("#floatingInput").val() == "") {
+    $("#Login").prop("disabled", true);
+  }
 });
 
-
-
-
-
 // password verification.
-$("#userPass").keypress( function(){
-    if($("#userPass").val()!="" && $("#userName").val()!="" && $("#floatingInput").val() !="")
+$("#userPass").keypress(function () {
+  if (
+    $("#userPass").val() != "" &&
+    $("#userName").val() != "" &&
+    $("#floatingInput").val() != ""
+  ) {
+    $("#Login").prop("disabled", false);
+  }
 
-{
-
-    $('#Login').prop('disabled', false);
-
-}
-
-if($("#userPass").val()=="")
-    {
-        $('#Login').prop('disabled', true);
-    }
-   
-
-
-}
-)
-
-
-
-
-
-
-
+  if ($("#userPass").val() == "") {
+    $("#Login").prop("disabled", true);
+  }
+});
